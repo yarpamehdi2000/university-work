@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 100%;
+}
+.topheader{
+    background-image: url('https://image.shutterstock.com/image-photo/happy-teenage-girl-holding-bags-260nw-556167601.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+    background-attachment: fixed;
+    height: 150px;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+  
+}
+
+.menu ul{
+    text-decoration: none;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 60px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.search{
+    float: right;
+    line-height: 60px;
+    padding-right: 10px;
+}
+.content_wrapper{
+    width: 100%;
+    height: 700px;
+    background-color: #F96;
+}
+.leftsidebar{
+    width: 20%;
+    height: 700px;
+    background-color: #000;
+    float: left;
+}
+.rightsidebar{ 
+    width: 80%;
+    height: 700px;
+    background-color: #FCC;
+    float: right;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+    color: #FFF;
+    clear: both;
+}
+.sidebartitle{
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+}
+.list{
+    text-align: center;
+   
+    font-size: 20px;
+    
+}
+.list  li{
+    list-style: none;
+    padding: 5px;
+
+}
+.list li a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+.addtocart{
+    width: 100%;
+    height: 53px;
+    background-color: #000;
+}
+.addtocart p{
+    color: #FFF;
+    line-height: 53px;
+    float: right;
+    padding-right: 20px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 50px;
+}
+.products{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    
+}
+.products img{
+    width: 100%;
+    border: 2px solid black;
+    height: 180px;
+}
